@@ -14,7 +14,7 @@
     "servers": [
       {
         "id": "ru",
-        "baseUrl": "https://app.lundapadel.ru",
+        "baseUrl": "https://v1.lundapadel.app",
         "priority": 1
       },
       {
