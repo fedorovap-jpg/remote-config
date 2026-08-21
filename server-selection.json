@@ -1,0 +1,27 @@
+{
+  "lastModified": "2026-08-21T12:45:00Z",
+  "serverSelection": {
+    "enabled": true,
+    "probePath": "/api-probe.txt",
+    "heavyProbePath": "/api-probe-heavy.txt",
+    "useHeavyProbe": false,
+    "probeTimeoutMs": 5000,
+    "minSuccessMarkers": [
+      "LUNDA_OK"
+    ],
+    "reselectOnResume": true,
+    "reselectAfterBackgroundMs": 300000,
+    "servers": [
+      {
+        "id": "ru",
+        "baseUrl": "https://app.lundapadel.ru",
+        "priority": 1
+      },
+      {
+        "id": "com",
+        "baseUrl": "https://app.lundapadel.com",
+        "priority": 2
+      }
+    ]
+  }
+}
